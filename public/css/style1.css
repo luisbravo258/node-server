@@ -463,6 +463,11 @@ carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbna
 
 /*carousel finsih*/
 
+.btn-primary {
+  border-color: #9CD619;
+
+}
+
 .about-text{
   display: block;
   color: white;
@@ -511,7 +516,7 @@ carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbna
 .contact-schizzo a{
   margin: 20px;
   font-size: 20px;
-  color: lightblue;
+  color: #9CD619;
 }
 
 .contact-schizzo h2{
