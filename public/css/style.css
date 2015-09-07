@@ -1,0 +1,29 @@
+body{
+  font-family: 'Ropa Sans', sans-serif;
+  background-color: black;
+}
+
+
+.text h1{
+  text-align: center;
+  color: white;
+
+}
+
+.text h2{
+  text-align: center;
+  color: white;
+}
+
+.logo logo-schizzo{
+  display: block;
+  align-content: center;
+}
+
+.logo-schizzo{
+  display: block;
+  margin: auto;
+  width: 20%;
+  height: auto;
+  margin-top: 215px;
+}
