@@ -1,6 +1,7 @@
 body{
   font-family: 'Ropa Sans', sans-serif;
   background-image: url(../black_linen_v2/black_linen_v2.png);
+  margin-bottom: 40px;
 }
 
 .cb-slideshow,
@@ -504,7 +505,6 @@ carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbna
 .contact-schizzo {
   display: block;
   margin-top: 60px;
-  padding-left: 162px;
 }
 
 .contact-schizzo h1{
@@ -556,7 +556,6 @@ carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbna
     border: 1px solid white;
     padding: 10px;
     margin-bottom: 10px;
-    margin-left: 70px;
 }
 
 

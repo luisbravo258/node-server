@@ -7,23 +7,23 @@ $(document).ready(function() {
     });
   };
 
-  $('#link-home').on("click", function() {
+  $('.link-home').on("click", function() {
     getHtml("home.html");
   })
 
-  $('#link-about').on("click", function() {
+  $('.link-about').on("click", function() {
     getHtml("about.html")
   })
 
-  $('#link-projects').on("click", function() {
+  $('.link-projects').on("click", function() {
     getHtml("projects2.html")
   })
 
-  $('#link-ongoing').on("click", function() {
+  $('.link-ongoing').on("click", function() {
     getHtml("ongoing.html")
   })
 
-  $('#link-contact').on("click", function() {
+  $('.link-contact').on("click", function() {
     getHtml("contact.html")
   })
 
