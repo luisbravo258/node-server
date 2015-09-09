@@ -30,6 +30,35 @@ $(document).ready(function() {
   getHtml("home.html");
 
 
+  // var href = window.location.href;
+  // var hrefS = href.search("#");
+  //
+  // if (hrefS !== -1) {
+  //   var route = href.substring(href.search("#"), href.length);
+  //
+  //   switch (route) {
+  //     case "#home":
+  //       getHtml("home.html");
+  //       break;
+  //     case "#about":
+  //       getHtml("about.html");
+  //       break;
+  //     case "#projects":
+  //       getHtml("projects.html");
+  //       break;
+  //     case "#ongoing":
+  //       getHtml("ongoing.html");
+  //       break;
+  //     case "#contact":
+  //       getHtml("contact.html");
+  //       break;
+  //     default:
+  //       getHtml("home.html");
+  //       break;
+  //   }
+  // } else {
+  //   getHtml("home.html");
+  // }
 
   /*
   document.onmousedown=disableclick;
