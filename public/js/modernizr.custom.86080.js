@@ -32,25 +32,23 @@ $(document).ready(function() {
 
   // var href = window.location.href;
   // var hrefS = href.search("#");
-  //
   // if (hrefS !== -1) {
   //   var route = href.substring(href.search("#"), href.length);
-  //
   //   switch (route) {
   //     case "#home":
   //       getHtml("home.html");
   //       break;
   //     case "#about":
-  //       getHtml("about.html");
+  //       getHtml("about.html")
   //       break;
   //     case "#projects":
-  //       getHtml("projects.html");
+  //       getHtml("projects.html")
   //       break;
   //     case "#ongoing":
-  //       getHtml("ongoing.html");
+  //       getHtml("ongoing.html")
   //       break;
   //     case "#contact":
-  //       getHtml("contact.html");
+  //       getHtml("contact.html")
   //       break;
   //     default:
   //       getHtml("home.html");
