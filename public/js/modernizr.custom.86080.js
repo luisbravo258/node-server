@@ -1,33 +1,33 @@
 $(document).ready(function() {
 
-  function getHtml(page) {
-    $.get(page, function(html) {
-      $('#content').empty();
-      $('#content').append(html);
-    });
-  };
-
-  $('.link-home').on("click", function() {
-    getHtml("home.html");
-  })
-
-  $('.link-about').on("click", function() {
-    getHtml("about.html")
-  })
-
-  $('.link-projects').on("click", function() {
-    getHtml("projects2.html")
-  })
-
-  $('.link-ongoing').on("click", function() {
-    getHtml("ongoing.html")
-  })
-
-  $('.link-contact').on("click", function() {
-    getHtml("contact.html")
-  })
-
-  getHtml("home.html");
+  // function getHtml(page) {
+  //   $.get(page, function(html) {
+  //     $('#content').empty();
+  //     $('#content').append(html);
+  //   });
+  // };
+  //
+  // $('.link-home').on("click", function() {
+  //   getHtml("home.html");
+  // })
+  //
+  // $('.link-about').on("click", function() {
+  //   getHtml("about.html")
+  // })
+  //
+  // $('.link-projects').on("click", function() {
+  //   getHtml("projects2.html")
+  // })
+  //
+  // $('.link-ongoing').on("click", function() {
+  //   getHtml("ongoing.html")
+  // })
+  //
+  // $('.link-contact').on("click", function() {
+  //   getHtml("contact.html")
+  // })
+  //
+  // getHtml("home.html");
 
 
   // var href = window.location.href;
