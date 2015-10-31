@@ -22,15 +22,86 @@
     </head>
 
 <body>
+  <div class="container">
+    <div class="row">
+      <div  class="col-md-12">
 
-    <div class="Back-to-previous">
-        <a href="projects2.html"><h1>BACK TO PROJECTS</h1></a>
+          <style>
+              /* Discuss with Luis*/
+             /* .navbar{
+                  background-image: url();
+                  border: none;
+                  background-color: transparent;
+
+              }*/
+
+              .navbar{
+                  margin-top: 10px;
+                  z-index: 1000;
+              }
+
+              .navbar-brand > img{
+                  margin-top: -11px;
+                  width: 58px;
+              }
+          </style>
+
+          <nav class="navbar navbar-inverse visible-xs-block">
+            <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img class="logo-schizzo" alt="logo" src="logo/schizzo_business_logo.png"></a>
+              </div>
+
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li><a href="index.html" class="HOME link-home">HOME</a></li>
+                  <li><a class="link-about" href="about.html">ABOUT</a></li>
+                  <li><a class="link-projects" href="projects2.html">PROJECTS</a></li>
+                  <li><a class="link-ongoing" href="ongoing.html">ONGOING</a></li>
+                  <li><a class="link-contact" href="contact.html">CONTACT US</a></li>
+                </ul>
+              </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+          </nav>
+
+      <!-- Codrops top bar -->
+      <div class="codrops-top hidden-xs">
+          <span class="right" style="font-weight: bolder;">
+            <a class="link-home" href="index.html" class="HOME">HOME</a>
+            <a class="link-about" href="about.html">ABOUT</a>
+            <a class="link-projects" href="projects2.html">PROJECTS</a>
+            <a class="link-ongoing" href="ongoing.html">ONGOING</a>
+            <a class="link-contact" href="contact.html">CONTACT US</a>
+          </span>
+          <div class="clr"></div>
+      </div><!--/ Codrops top bar -->
+      <header>
+
+
+      <a href="index.html" class="hidden-xs">
+          <div class="logo">
+          <img class="logo-schizzo" alt="logo" src="logo/schizzo_business_logo.png" width="100px" style="float:left;margin-top: -30px;">
+      </a>
 </div>
+</div>
+
+</div>
+
+      </header>
+  </div>
 
 <div class="carousel-projects">
 <div class="container">
 	<div class="row">
-		<h1 style="font-size: 40px; color: white;">PLAZA PUB</h1>
+		<h1 style="font-size: 40px; color: white; text-decoration: overline;">PLAZA PUB</h1>
 	</div>
 
   <div style="margin-top: 30px;" class="row">
@@ -38,13 +109,6 @@
         <div id="transition-timer-carousel" class="carousel slide transition-timer-carousel" data-ride="carousel">
 			<!-- Indicators -->
 			<ol class="carousel-indicators">
-				<li data-target="#transition-timer-carousel" data-slide-to="0"></li>
-				<li data-target="#transition-timer-carousel" data-slide-to="1"></li>
-				<li data-target="#transition-timer-carousel" data-slide-to="2"></li>
-        <li data-target="#transition-timer-carousel" data-slide-to="3"></li>
-
-
-
 
 			</ol>
 
@@ -94,8 +158,7 @@
 				<span class="glyphicon glyphicon-chevron-right"></span>
 			</a>
 
-            <!-- Timer "progress bar" -->
-            <hr class="transition-timer-carousel-progress-bar animate" />
+
 		</div>
     </div>
 </div>

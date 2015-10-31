@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+
   //Show full-about and hide short-about
   $("#read-more").click(function() {
     $(".short-about").addClass("hide");
